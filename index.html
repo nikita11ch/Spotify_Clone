@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify-Clone</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand"><img src="logo.png" alt="Spotify" />Spotify</li>
+        <li><b>Where Music Speaks Louder Than Words</b></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="songList">
+        <h1>Best of NiXc playlist</h1>
+        <div class="songItemContainer">
+          <div class="songItem">
+            <img src="covers/Baby Girl.jpeg" alt="1" />
+            <span class="songName">Baby Girl</span>
+            <span class="songlistplay">
+              <span class="timestamp">03:27 <i id="0" class="fas songItemPlay fa-play-circle"></i></span></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/night-changes.jpeg" alt="1" />
+            <span class="songName">Night Changes</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >04:00 <i id="1" class="fas songItemPlay fa-play-circle"></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/shiddat.jpg" alt="1" />
+            <span class="songName">Barbaadiyan</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >03:50 <i id="2" class="fas songItemPlay fa-play-circle"></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/High Rated - Guru Randhawa.jpeg" alt="1" />
+            <span class="songName">High Rated</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >02:32 <i id="3" class="fas songItemPlay fa-play-circle"></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/maan-bharya.jpg" alt="1" />
+            <span class="songName">Maan Bharya</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >04:26 <i id="4" class="fas songItemPlay fa-play-circle"></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/TBUJ.jpg" alt="1" />
+            <span class="songName">Teri Baaton Mein</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >02:33 <i id="5" class="fas songItemPlay fa-play-circle"></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/Kesariya-Brahmastra.jpeg" alt="1" />
+            <span class="songName">Kesariya</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >04:28 <i id="6" class="fas songItemPlay fa-play-circle"></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/teri-mitti.jpg" alt="1" />
+            <span class="songName">Teri Mitti</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >04:01 <i id="7" class="fas songItemPlay fa-play-circle"></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/Heat Waves.jpg" alt="1" />
+            <span class="songName">Heat Waves</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >03:55 <i id="8" class="fas songItemPlay fa-play-circle"></i></span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/Tareefan.jpg" alt="1" />
+            <span class="songName">Tareefan</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >03:06 <i id="9" class="fas songItemPlay fa-play-circle"></i></span
+            ></span>
+          </div>
+        </div>
+      </div>
+      <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+      <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100" />
+      <div class="icons">
+        <i class="fas fa-2x fa-step-backward" id="previous"></i>
+        <i class="fas fa-2x fa-play-circle" id="masterPlay"></i>
+        <i class="fas fa-2x fa-step-forward" id="next"></i>
+      </div>
+      <div class="songInfo">
+        <img src="playing.gif" width="42px" alt="image" id="gif"> <span id="masterSongName">Baby Girl</span> 
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/26504e4a1f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
